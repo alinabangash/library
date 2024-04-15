@@ -1,0 +1,126 @@
+
+form {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 475px;
+  top: 150px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.enterId{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 42px;
+  position: absolute;
+  top: 20px;
+  left: 400px;
+}
+
+.loginButton{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  position: relative;
+  top: 10px;
+  left: -30px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cleanSession{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 500px;
+  left: 580px;
+}
+
+/* .profSignIn{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 130px;
+  position: absolute;
+  text-decoration: none;
+  top: 430px;
+  left: 490px;
+  padding: 10px;
+  background-color: #b3bfcb;
+  color: rgb(18, 17, 17);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.libSignIn{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 130px;
+  position: absolute;
+  text-decoration: none;
+  top: 430px;
+  left: 830px;
+  padding: 10px;
+  background-color: #b3bfcb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.adminSignIn{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 130px;
+  position: absolute;
+  text-decoration: none;
+  top: 420px;
+  left: 660px;
+  padding: 10px;
+  background-color: #b3bfcb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 130px;
+  position: absolute;
+  text-decoration: none;
+  top: 510px;
+  left: 660px;
+  padding: 10px;
+  background-color: #b3bfcb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

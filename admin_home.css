@@ -1,0 +1,73 @@
+/* admin_home.css */
+
+/* General styling */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: -40px;
+  margin: 0;
+  padding-left: 420px;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.accountTab{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.icon img {
+  position: relative;
+  top: -40px;
+  left: 140px;
+  width: 38%;
+  height: 10%;
+}
+
+.logout{
+  position: absolute;
+  top: 80px;
+  right: 35px;
+}
+
+.logoutText{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.logoutText:hover {
+  background-color: skyblue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10rem;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}

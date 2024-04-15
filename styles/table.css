@@ -1,0 +1,16 @@
+/* CSS for table styles */
+.resultsTable {
+    border-collapse: collapse; /* Collapse borders to avoid double borders */
+    width: 100%; /* Full width */
+  }
+  
+  .resultsTable th, .resultsTable td {
+    border: 1px solid black; /* Add black borders to cells */
+    padding: 8px; /* Add some padding for better spacing */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .resultsTable th {
+    background-color: #f2f2f2; /* Light gray background color for header cells */
+  }
+  

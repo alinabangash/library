@@ -1,0 +1,80 @@
+/* Add this to MainPage.css */
+.homeContent {
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Add this to table.css */
+.resultsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.resultsTable th,
+.resultsTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.resultsTable th {
+  background-color: #f2f2f2;
+}
+
+.resultsTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.resultsTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Add this custom CSS */
+form {
+  margin-top: 20px;
+  text-align: center; /* Center the form */
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.homeContent p {
+  margin-top: 20px;
+  text-align: center; /* Center the paragraph */
+}
+
+.homeContent a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.homeContent a:hover {
+  text-decoration: underline;
+}
+
+.title_history{
+  font-size: 30px;
+}
